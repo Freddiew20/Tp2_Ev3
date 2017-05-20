@@ -66,18 +66,18 @@ Proyecto de transformación de un proyecto de testing a maven
       
  ---------------------------------------------------------------------------------------------------------------------------------------
  
-   ### In the first place you should clone the project and get in the directory where the project is with the commands:
+   ### In first place you should clone the project and place it in the directory where the project is with the commands:
    
          $ git clone https://github.com/Freddiew20/Tp2_Ev3.git 
          $ cd Tp2_Ev3
 
-   ### The project has been created based on the first practice from class, you can find it on my github main page, and this is the maven version of it, i will proceed to list all the changes that have been made to the original project:
+   ### The project has been created based on the first practice from class, you can find it on my github's main page, and this is the maven version of it, i will proceed to list all the changes that have been made from the original project:
    
         - JunitTestSuite.java has been deleted, because it will be no longer necessary, the command mvn test will execute the tests.
         - A new folder structure has been implemented to fit maven standarts, this could be done manually but i chose to do it with Spring tool suite because it will make easier the creation of the pom.xml which leads to the next change
         - There is a pom.xml as it should be on every single maven project
         - The code hasn't been changed at all since we have our java files witten properly and we have tested them and work just as they should, the only change has been implementing that folder structure and minor changes to the ''package'' declaration at the begining of the code.
-   ### If you have cloned this repository and want to execute the tests you just need to execute the command:
+   ### If you have cloned this repository and you want to execute the tests you just need to execute the command:
    
         $ mvn test
    
